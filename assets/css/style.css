@@ -9,8 +9,9 @@
 }
 
 .cabecalho {
-    background-color: green;
+    
     grid-area: cabecalho;
+    display: flex;
 }
  
 .conteudo {
@@ -19,6 +20,9 @@
 }
 
 .rodape {
-    background-color: blue;
+    background-color: #fdfdfd;
     grid-area: rodape;
+    color: #333333;
+    font-size: .8rem;
+    text-align: center;
 }
